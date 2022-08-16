@@ -10,6 +10,7 @@
     "strapi": "strapi"
   },
   "dependencies": {
+    "@_sh/strapi-plugin-ckeditor": "^1.1.2",
     "@strapi/plugin-documentation": "^4.3.4",
     "@strapi/plugin-i18n": "4.3.4",
     "@strapi/plugin-users-permissions": "4.3.4",
@@ -18,7 +19,6 @@
     "@strapi/utils": "^4.3.4",
     "better-sqlite3": "7.4.6",
     "pg": "^8.7.3",
-    "strapi-plugin-react-editorjs": "^2.0.1",
     "strapi-provider-upload-digitalocean-nohash": "^1.0.2"
   },
   "author": {

@@ -11,7 +11,10 @@ module.exports = ({env}) => ({
         space: env('DO_SPACE_BUCKET'),
       }
     },
-  }, 
+  },
+  'generate-data': {
+        enabled: true,
+    },
   ckeditor: {
      enabled: true,
      config:{

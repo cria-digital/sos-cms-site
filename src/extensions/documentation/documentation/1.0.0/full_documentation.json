@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-08-16T16:19:57.703Z"
+    "x-generation-date": "2022-08-16T16:37:06.601Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -87,7 +87,7 @@
           }
         }
       },
-      "AboutRequest": {
+      "CommomQuestionRequest": {
         "type": "object",
         "required": [
           "data"
@@ -107,7 +107,7 @@
           }
         }
       },
-      "AboutListResponse": {
+      "CommomQuestionListResponse": {
         "type": "object",
         "properties": {
           "data": {
@@ -454,7 +454,7 @@
           }
         }
       },
-      "AboutResponse": {
+      "CommomQuestionResponse": {
         "type": "object",
         "properties": {
           "data": {
@@ -7324,7 +7324,7 @@
     "requestBodies": {}
   },
   "paths": {
-    "/abouts": {
+    "/commom-questions": {
       "get": {
         "responses": {
           "200": {
@@ -7332,7 +7332,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/AboutListResponse"
+                  "$ref": "#/components/schemas/CommomQuestionListResponse"
                 }
               }
             }
@@ -7389,7 +7389,7 @@
           }
         },
         "tags": [
-          "About"
+          "Commom-question"
         ],
         "parameters": [
           {
@@ -7473,7 +7473,7 @@
             }
           }
         ],
-        "operationId": "get/abouts"
+        "operationId": "get/commom-questions"
       },
       "post": {
         "responses": {
@@ -7482,7 +7482,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/AboutResponse"
+                  "$ref": "#/components/schemas/CommomQuestionResponse"
                 }
               }
             }
@@ -7539,23 +7539,23 @@
           }
         },
         "tags": [
-          "About"
+          "Commom-question"
         ],
         "parameters": [],
-        "operationId": "post/abouts",
+        "operationId": "post/commom-questions",
         "requestBody": {
           "required": true,
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/AboutRequest"
+                "$ref": "#/components/schemas/CommomQuestionRequest"
               }
             }
           }
         }
       }
     },
-    "/abouts/{id}": {
+    "/commom-questions/{id}": {
       "get": {
         "responses": {
           "200": {
@@ -7563,7 +7563,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/AboutResponse"
+                  "$ref": "#/components/schemas/CommomQuestionResponse"
                 }
               }
             }
@@ -7620,7 +7620,7 @@
           }
         },
         "tags": [
-          "About"
+          "Commom-question"
         ],
         "parameters": [
           {
@@ -7634,7 +7634,7 @@
             }
           }
         ],
-        "operationId": "get/abouts/{id}"
+        "operationId": "get/commom-questions/{id}"
       },
       "put": {
         "responses": {
@@ -7643,7 +7643,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/AboutResponse"
+                  "$ref": "#/components/schemas/CommomQuestionResponse"
                 }
               }
             }
@@ -7700,7 +7700,7 @@
           }
         },
         "tags": [
-          "About"
+          "Commom-question"
         ],
         "parameters": [
           {
@@ -7714,13 +7714,13 @@
             }
           }
         ],
-        "operationId": "put/abouts/{id}",
+        "operationId": "put/commom-questions/{id}",
         "requestBody": {
           "required": true,
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/AboutRequest"
+                "$ref": "#/components/schemas/CommomQuestionRequest"
               }
             }
           }
@@ -7791,7 +7791,7 @@
           }
         },
         "tags": [
-          "About"
+          "Commom-question"
         ],
         "parameters": [
           {
@@ -7805,7 +7805,7 @@
             }
           }
         ],
-        "operationId": "delete/abouts/{id}"
+        "operationId": "delete/commom-questions/{id}"
       }
     },
     "/upload/files": {

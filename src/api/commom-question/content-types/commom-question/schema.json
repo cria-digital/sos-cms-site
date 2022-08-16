@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "abouts",
+  "collectionName": "commom_questions",
   "info": {
-    "singularName": "about",
-    "pluralName": "abouts",
-    "displayName": "Abouts"
+    "singularName": "commom-question",
+    "pluralName": "commom-questions",
+    "displayName": "commom-questions"
   },
   "options": {
     "draftAndPublish": true
@@ -12,7 +12,7 @@
   "pluginOptions": {},
   "attributes": {
     "title": {
-      "type": "text"
+      "type": "string"
     },
     "description": {
       "type": "richtext"

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_block_homepage_blocks",
+  "info": {
+    "displayName": "Homepage-Block"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

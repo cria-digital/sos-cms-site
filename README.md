@@ -1,3 +1,16 @@
+# Desenvolvimento
+
+```
+npm run build
+npm run develop
+```
+
+# Produção
+
+```
+npm run build
+npm start
+```
 
 # 🚀 Getting started with Strapi
 

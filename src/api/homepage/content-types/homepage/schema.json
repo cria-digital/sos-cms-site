@@ -12,10 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "description": {
+    "subtitle": {
       "type": "text"
     },
     "block": {
@@ -28,17 +28,23 @@
       "type": "text"
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "button": {
       "type": "string"
+    },
+    "orderby": {
+      "type": "integer",
+      "default": 0,
+      "min": 0
     }
   }
 }

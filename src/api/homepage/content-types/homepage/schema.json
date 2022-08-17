@@ -36,11 +36,6 @@
     },
     "content": {
       "type": "richtext"
-    },
-    "block": {
-      "type": "component",
-      "repeatable": true,
-      "component": "block.homepage-block"
     }
   }
 }

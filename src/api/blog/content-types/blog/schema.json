@@ -19,7 +19,8 @@
       "type": "richtext"
     },
     "description": {
-      "type": "text"
+      "type": "text",
+      "maxLength": 150
     },
     "cover": {
       "type": "media",

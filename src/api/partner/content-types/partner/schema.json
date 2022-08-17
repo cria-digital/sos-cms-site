@@ -18,7 +18,8 @@
       "component": "block.partners-block"
     },
     "groupid": {
-      "type": "integer"
+      "type": "integer",
+      "min": 0
     }
   }
 }

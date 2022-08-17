@@ -1,11 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "commom_questions",
+  "collectionName": "common_questions",
   "info": {
-    "singularName": "commom-question",
-    "pluralName": "commom-questions",
-    "displayName": "Common",
-    "description": ""
+    "singularName": "common-question",
+    "pluralName": "common-questions",
+    "displayName": "Common-questions"
   },
   "options": {
     "draftAndPublish": true

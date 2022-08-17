@@ -18,12 +18,6 @@
     "subtitle": {
       "type": "text"
     },
-    "block": {
-      "displayName": "Homepage-Block",
-      "type": "component",
-      "repeatable": true,
-      "component": "block.homepage-block"
-    },
     "image": {
       "type": "media",
       "multiple": false,

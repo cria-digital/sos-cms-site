@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homepages_blocks",
+  "info": {
+    "singularName": "homepages-block",
+    "pluralName": "homepages-blocks",
+    "displayName": "Homepages-block"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

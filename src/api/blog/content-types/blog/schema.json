@@ -41,6 +41,11 @@
     "slug": {
       "type": "uid",
       "targetField": "title"
+    },
+    "admin_users": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "admin::user"
     }
   }
 }

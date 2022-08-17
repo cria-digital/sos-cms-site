@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_block_partners_blocks",
+  "info": {
+    "displayName": "Partners-block"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

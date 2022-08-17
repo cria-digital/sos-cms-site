@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-08-17T18:34:10.737Z"
+    "x-generation-date": "2022-08-17T19:04:02.652Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -6063,9 +6063,6 @@
                     "title": {
                       "type": "string"
                     },
-                    "description": {
-                      "type": "string"
-                    },
                     "image": {
                       "oneOf": [
                         {
@@ -6076,12 +6073,12 @@
                         }
                       ],
                       "example": "string or id"
+                    },
+                    "description": {
+                      "type": "string"
                     }
                   }
                 }
-              },
-              "content": {
-                "type": "string"
               },
               "image": {
                 "oneOf": [
@@ -6099,6 +6096,9 @@
               },
               "orderby": {
                 "type": "integer"
+              },
+              "content": {
+                "type": "string"
               }
             }
           }
@@ -6133,9 +6133,6 @@
                             "type": "string"
                           },
                           "title": {
-                            "type": "string"
-                          },
-                          "description": {
                             "type": "string"
                           },
                           "image": {
@@ -6758,12 +6755,12 @@
                                 }
                               }
                             }
+                          },
+                          "description": {
+                            "type": "string"
                           }
                         }
                       }
-                    },
-                    "content": {
-                      "type": "string"
                     },
                     "image": {
                       "type": "object",
@@ -7392,6 +7389,9 @@
                     "orderby": {
                       "type": "integer"
                     },
+                    "content": {
+                      "type": "string"
+                    },
                     "createdAt": {
                       "type": "string",
                       "format": "date-time"
@@ -7746,9 +7746,6 @@
                           "type": "string"
                         },
                         "title": {
-                          "type": "string"
-                        },
-                        "description": {
                           "type": "string"
                         },
                         "image": {
@@ -8371,12 +8368,12 @@
                               }
                             }
                           }
+                        },
+                        "description": {
+                          "type": "string"
                         }
                       }
                     }
-                  },
-                  "content": {
-                    "type": "string"
                   },
                   "image": {
                     "type": "object",
@@ -9004,6 +9001,9 @@
                   },
                   "orderby": {
                     "type": "integer"
+                  },
+                  "content": {
+                    "type": "string"
                   },
                   "createdAt": {
                     "type": "string",

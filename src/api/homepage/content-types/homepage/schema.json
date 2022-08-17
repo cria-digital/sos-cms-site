@@ -24,9 +24,6 @@
       "repeatable": true,
       "component": "block.homepage-block"
     },
-    "content": {
-      "type": "text"
-    },
     "image": {
       "type": "media",
       "multiple": false,
@@ -42,6 +39,9 @@
       "type": "integer",
       "default": 0,
       "min": 0
+    },
+    "content": {
+      "type": "richtext"
     }
   }
 }

@@ -40,9 +40,6 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "admin::user"
-    },
-    "category": {
-      "type": "string"
     }
   }
 }

@@ -42,9 +42,7 @@
       "target": "admin::user"
     },
     "category": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::category.category"
+      "type": "string"
     }
   }
 }

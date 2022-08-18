@@ -20,14 +20,6 @@
       "type": "richtext",
       "minLength": 150
     },
-    "icon": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images"
-      ]
-    },
     "file": {
       "type": "media",
       "multiple": false,
@@ -44,13 +36,15 @@
         "images"
       ]
     },
-    "category": {
-      "type": "string"
-    },
     "admin_users": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "admin::user"
+    },
+    "category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::category.category"
     }
   }
 }

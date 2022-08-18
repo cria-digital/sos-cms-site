@@ -22,12 +22,6 @@
       "type": "integer",
       "min": 0
     },
-    "block": {
-      "displayName": "About-us-content",
-      "type": "component",
-      "repeatable": true,
-      "component": "block.about-us-content"
-    },
     "image": {
       "type": "media",
       "multiple": false,
@@ -36,11 +30,10 @@
         "images"
       ]
     },
-    "array1": {
-      "displayName": "array1",
+    "block": {
       "type": "component",
       "repeatable": true,
-      "component": "block.array1"
+      "component": "block.about-us-block"
     }
   }
 }

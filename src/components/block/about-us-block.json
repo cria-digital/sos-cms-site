@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_block_about_us_blocks",
+  "info": {
+    "displayName": "About-us-block"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "string"
+    }
+  }
+}

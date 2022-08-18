@@ -34,6 +34,21 @@
       "type": "component",
       "repeatable": true,
       "component": "block.about-us-block"
+    },
+    "partners1": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::partner.partner"
+    },
+    "partners2": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::partner.partner"
+    },
+    "partners3": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::partner.partner"
     }
   }
 }

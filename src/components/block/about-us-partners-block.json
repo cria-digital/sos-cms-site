@@ -6,21 +6,10 @@
   },
   "options": {},
   "attributes": {
-    "name": {
-      "type": "string",
-      "required": true
-    },
-    "link": {
-      "type": "string",
-      "required": true
-    },
-    "image": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
-      "allowedTypes": [
-        "images"
-      ]
+    "partners": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::partner.partner"
     }
   }
 }

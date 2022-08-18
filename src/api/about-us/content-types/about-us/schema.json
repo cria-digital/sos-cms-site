@@ -35,6 +35,12 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "array1": {
+      "displayName": "array1",
+      "type": "component",
+      "repeatable": true,
+      "component": "block.array1"
     }
   }
 }

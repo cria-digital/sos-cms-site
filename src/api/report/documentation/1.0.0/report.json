@@ -1,5 +1,5 @@
 {
-  "/partners": {
+  "/reports": {
     "get": {
       "responses": {
         "200": {
@@ -7,7 +7,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/PartnerListResponse"
+                "$ref": "#/components/schemas/ReportListResponse"
               }
             }
           }
@@ -64,7 +64,7 @@
         }
       },
       "tags": [
-        "Partner"
+        "Report"
       ],
       "parameters": [
         {
@@ -148,7 +148,7 @@
           }
         }
       ],
-      "operationId": "get/partners"
+      "operationId": "get/reports"
     },
     "post": {
       "responses": {
@@ -157,7 +157,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/PartnerResponse"
+                "$ref": "#/components/schemas/ReportResponse"
               }
             }
           }
@@ -214,23 +214,23 @@
         }
       },
       "tags": [
-        "Partner"
+        "Report"
       ],
       "parameters": [],
-      "operationId": "post/partners",
+      "operationId": "post/reports",
       "requestBody": {
         "required": true,
         "content": {
           "application/json": {
             "schema": {
-              "$ref": "#/components/schemas/PartnerRequest"
+              "$ref": "#/components/schemas/ReportRequest"
             }
           }
         }
       }
     }
   },
-  "/partners/{id}": {
+  "/reports/{id}": {
     "get": {
       "responses": {
         "200": {
@@ -238,7 +238,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/PartnerResponse"
+                "$ref": "#/components/schemas/ReportResponse"
               }
             }
           }
@@ -295,7 +295,7 @@
         }
       },
       "tags": [
-        "Partner"
+        "Report"
       ],
       "parameters": [
         {
@@ -309,7 +309,7 @@
           }
         }
       ],
-      "operationId": "get/partners/{id}"
+      "operationId": "get/reports/{id}"
     },
     "put": {
       "responses": {
@@ -318,7 +318,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/PartnerResponse"
+                "$ref": "#/components/schemas/ReportResponse"
               }
             }
           }
@@ -375,7 +375,7 @@
         }
       },
       "tags": [
-        "Partner"
+        "Report"
       ],
       "parameters": [
         {
@@ -389,13 +389,13 @@
           }
         }
       ],
-      "operationId": "put/partners/{id}",
+      "operationId": "put/reports/{id}",
       "requestBody": {
         "required": true,
         "content": {
           "application/json": {
             "schema": {
-              "$ref": "#/components/schemas/PartnerRequest"
+              "$ref": "#/components/schemas/ReportRequest"
             }
           }
         }
@@ -466,7 +466,7 @@
         }
       },
       "tags": [
-        "Partner"
+        "Report"
       ],
       "parameters": [
         {
@@ -480,7 +480,7 @@
           }
         }
       ],
-      "operationId": "delete/partners/{id}"
+      "operationId": "delete/reports/{id}"
     }
   }
 }

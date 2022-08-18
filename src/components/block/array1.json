@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_block_array1s",
+  "info": {
+    "displayName": "array1"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

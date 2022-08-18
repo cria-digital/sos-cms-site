@@ -1,12 +1,13 @@
 {
   "collectionName": "components_block_about_us_blocks",
   "info": {
-    "displayName": "About-us-block"
+    "displayName": "About-us-block",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "content": {
-      "type": "string"
+      "type": "richtext"
     }
   }
 }

@@ -45,7 +45,6 @@ module.exports = ({env}) => ({
         editor:{
           toolbar: {
             items: [
-              'div',
               'paragraph',
               'heading1',
               'heading2',
@@ -172,7 +171,6 @@ module.exports = ({env}) => ({
           },
           heading: {
             options: [
-              {model: 'div', title: 'Div', class: 'ck-heading_div'},
               { model: 'paragraph', title: 'Paragraph', class: 'ck-heading_paragraph' },
               { model: 'heading1', view: 'h1', title: 'Heading 1', class: 'ck-heading_heading1' },
               { model: 'heading2', view: 'h2', title: 'Heading 2', class: 'ck-heading_heading2' },
@@ -191,8 +189,6 @@ module.exports = ({env}) => ({
                 },
             ]
           },
-          enterMode: 3,
-
         }
       }
     } 

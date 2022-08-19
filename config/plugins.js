@@ -37,7 +37,11 @@ module.exports = ({env}) => ({
  ckeditor: {
      enabled: true,
      config:{
-        plugin: {  },
+
+      plugin: { 
+          
+        
+         },
         editor:{
           toolbar: {
             items: [
@@ -185,6 +189,8 @@ module.exports = ({env}) => ({
                 },
             ]
           },
+          enterMode: 3,
+
         }
       }
     } 

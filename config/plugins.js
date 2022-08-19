@@ -1,5 +1,4 @@
 module.exports = ({env}) => ({
-  // ...
   upload: {
     config: {
       provider: "strapi-provider-upload-digitalocean-nohash", 
@@ -34,8 +33,6 @@ module.exports = ({env}) => ({
   'generate-data': {
         enabled: true,
     },
-
- 
  ckeditor: {
      enabled: true,
      config:{
@@ -190,7 +187,5 @@ module.exports = ({env}) => ({
           },
         }
       }
-    } 
-  // ...
-  
+    }   
 })

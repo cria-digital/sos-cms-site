@@ -35,17 +35,17 @@
       "repeatable": true,
       "component": "block.about-us-block"
     },
-    "partners": {
-      "type": "component",
-      "repeatable": true,
-      "component": "block.about-us-partners-block"
-    },
     "partners1": {
       "type": "component",
       "repeatable": true,
       "component": "block.about-us-partners-block"
     },
     "partners2": {
+      "type": "component",
+      "repeatable": true,
+      "component": "block.about-us-partners-block"
+    },
+    "partners3": {
       "type": "component",
       "repeatable": true,
       "component": "block.about-us-partners-block"

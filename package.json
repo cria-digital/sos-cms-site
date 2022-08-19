@@ -10,8 +10,6 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@_sh/strapi-plugin-ckeditor": "^1.1.2",
-    "@ckeditor/ckeditor5-engine": "^35.0.1",
     "@exfabrica/strapi-plugin-awesome-help": "^1.0.8",
     "@strapi/plugin-documentation": "^4.3.4",
     "@strapi/plugin-i18n": "4.3.4",

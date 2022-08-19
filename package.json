@@ -22,7 +22,6 @@
     "better-sqlite3": "7.4.6",
     "pg": "^8.7.3",
     "strapi-plugin-generate-data": "^1.0.15",
-    "strapi-plugin-react-editorjs": "^2.0.1",
     "strapi-plugin-slugify": "^2.2.3",
     "strapi-provider-upload-digitalocean-nohash": "^1.0.2"
   },

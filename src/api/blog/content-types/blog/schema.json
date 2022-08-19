@@ -8,7 +8,8 @@
     "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": true,
+    "populateCreatorFields": true
   },
   "pluginOptions": {
     "i18n": {
@@ -71,11 +72,6 @@
     "slug": {
       "type": "uid",
       "targetField": "title"
-    },
-    "admin_users": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "admin::user"
     }
   }
 }

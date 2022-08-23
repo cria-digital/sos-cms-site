@@ -20,7 +20,8 @@
     },
     "orderby": {
       "type": "integer",
-      "min": 0
+      "min": 0,
+      "required": true
     },
     "image": {
       "type": "media",
@@ -33,7 +34,8 @@
     "block": {
       "type": "component",
       "repeatable": true,
-      "component": "block.about-us-block"
+      "component": "block.about-us-block",
+      "required": true
     }
   }
 }

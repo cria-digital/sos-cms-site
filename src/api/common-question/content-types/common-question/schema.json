@@ -4,7 +4,8 @@
   "info": {
     "singularName": "common-question",
     "pluralName": "common-questions",
-    "displayName": "Common-questions"
+    "displayName": "Common-questions",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,10 +13,12 @@
   "pluginOptions": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "description": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     }
   }
 }

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "homepages-block",
     "pluralName": "homepages-blocks",
-    "displayName": "Homepages-block"
+    "displayName": "Homepages-block",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,17 +13,20 @@
   "pluginOptions": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "content": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }

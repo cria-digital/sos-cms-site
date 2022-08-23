@@ -14,16 +14,18 @@
   "attributes": {
     "title": {
       "type": "string",
-      "maxLength": 150
+      "maxLength": 150,
+      "required": true
     },
     "description": {
       "type": "richtext",
-      "maxLength": 150
+      "maxLength": 150,
+      "required": true
     },
     "file": {
       "type": "media",
       "multiple": false,
-      "required": false,
+      "required": true,
       "allowedTypes": [
         "files"
       ]
@@ -31,7 +33,7 @@
     "thumbnail": {
       "type": "media",
       "multiple": false,
-      "required": false,
+      "required": true,
       "allowedTypes": [
         "images"
       ]

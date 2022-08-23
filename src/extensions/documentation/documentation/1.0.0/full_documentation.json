@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-08-23T14:13:47.180Z"
+    "x-generation-date": "2022-08-23T14:37:36.424Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -2081,6 +2081,12 @@
       },
       "BlogLocalizationRequest": {
         "required": [
+          "title",
+          "content",
+          "description",
+          "cover",
+          "thumbnail",
+          "slug",
           "locale"
         ],
         "type": "object",
@@ -2131,7 +2137,14 @@
         ],
         "properties": {
           "data": {
-            "required": [],
+            "required": [
+              "title",
+              "content",
+              "description",
+              "cover",
+              "thumbnail",
+              "slug"
+            ],
             "type": "object",
             "properties": {
               "title": {

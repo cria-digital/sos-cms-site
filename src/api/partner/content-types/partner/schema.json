@@ -4,27 +4,27 @@
   "info": {
     "singularName": "partner",
     "pluralName": "partners",
-    "displayName": "Partners",
-    "description": ""
+    "displayName": "Partners"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
-      "type": "string"
+    "partners1": {
+      "type": "component",
+      "repeatable": true,
+      "component": "block.about-us-partners-block"
     },
-    "link": {
-      "type": "string"
+    "partners2": {
+      "type": "component",
+      "repeatable": true,
+      "component": "block.about-us-partners-block"
     },
-    "image": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
-      "allowedTypes": [
-        "images"
-      ]
+    "partners3": {
+      "type": "component",
+      "repeatable": true,
+      "component": "block.about-us-partners-block"
     }
   }
 }
